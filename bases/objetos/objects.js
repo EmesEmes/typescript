@@ -9,7 +9,7 @@
         name: 'Clark Kent',
         age: 60,
         powers: ['Super Fuerza'],
-        getNombre() {
+        getName() {
             return this.name;
         }
     };
