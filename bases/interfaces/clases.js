@@ -5,9 +5,6 @@
             this.name = name;
             this.realName = realName;
             this.age = age;
-            this.name = name;
-            this.realName = realName;
-            this.age = age;
         }
         mutantPower(power) {
             return `Tiene un poder de: ${power}`;

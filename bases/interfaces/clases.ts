@@ -12,9 +12,7 @@
     class Mutant implements Xmen, Human {
 
         constructor(public name: string, public realName : string, public age: number) {
-            this.name = name;
-            this.realName = realName;
-            this.age= age;
+            
         }
         mutantPower(power: number): string {
             return `Tiene un poder de: ${power}`;
