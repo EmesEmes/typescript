@@ -5,7 +5,9 @@
 
     let addNumbersFunction: addTwoNumbers;
 
-    addNumbersFunction= (a: number, b: number) => {
+    addNumbersFunction= (a, b) => {
         return a + b;
     }
+
+    
 })();
