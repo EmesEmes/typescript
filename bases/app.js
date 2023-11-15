@@ -2,12 +2,12 @@
 const conducirBatimovil = (auto) => {
     auto.encender = true;
     auto.velocidadMaxima = 100;
-    auto.acelear();
+    auto.acelerar();
 };
 const batimovil = {
     encender: false,
     velocidadMaxima: 0,
-    acelear() {
+    acelerar() {
         console.log("...... gogogo!!!");
     }
 };
