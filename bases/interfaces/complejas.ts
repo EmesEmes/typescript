@@ -13,7 +13,7 @@
         name: string;
         age:number;
         address: Address;
-        getFullAddress: (id: string) => string;
+        getFullAddress(id: string): string;
     }
     interface Address {
         id: number;
